@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <AssemblyName>WindowWalker.Fluent.Plugin</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.*" />
+    <PackageReference Include="Avalonia.Skia" Version="11.0.*" />
+    <PackageReference Include="Blast.API" Version="0.9.92-*" Private="false" ExcludeAssets="runtime" />
+  </ItemGroup>
+</Project>
