@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.0.*" />
-    <PackageReference Include="Avalonia.Skia" Version="11.0.*" />
+    <PackageReference Include="Avalonia" Version="11.0.8-blast" />
+    <PackageReference Include="Avalonia.Skia" Version="11.0.8-blast" />
     <PackageReference Include="Blast.API" Version="0.9.92-*" Private="false" ExcludeAssets="runtime" />
   </ItemGroup>
 </Project>
