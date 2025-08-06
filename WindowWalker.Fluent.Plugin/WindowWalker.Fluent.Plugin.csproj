@@ -5,10 +5,13 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <AssemblyName>WindowWalker.Fluent.Plugin</AssemblyName>
   </PropertyGroup>
-
   <ItemGroup>
+    <!-- Consider if these Avalonia references are strictly needed for a backend plugin -->
     <PackageReference Include="Avalonia" Version="11.0.8-blast" />
     <PackageReference Include="Avalonia.Skia" Version="11.0.8-blast" />
-    <PackageReference Include="Blast.API" Version="0.9.92-*" Private="false" ExcludeAssets="runtime" />
+    <!-- Pin the Blast.API version if possible -->
+    <PackageReference Include="Blast.API" Version="0.9.92.123" Private="false" ExcludeAssets="runtime" /> <!-- Example pinned version -->
+    <!-- Add Logging -->
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
   </ItemGroup>
 </Project>
