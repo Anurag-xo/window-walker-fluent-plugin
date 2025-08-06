@@ -2,9 +2,6 @@
 
 A powerful and fluent replacement for the classic Alt-Tab, built for [PowerToys Run](https://docs.microsoft.com/en-us/windows/powertoys/run). This plugin lets you search for and switch to any open window with just a few keystrokes. It's a modern take on the original [Window Walker](http://www.windowwalker.com/) utility.
 
-![Window Walker Fluent Demo](https://raw.githubusercontent.com/user/repo/main/docs/demo.gif) 
-*(Note: Add a demonstration GIF here to showcase the plugin in action)*
-
 ## ✨ Features
 
 *   **Fuzzy Search:** Quickly find the window you're looking for, even if you only remember part of its title.
